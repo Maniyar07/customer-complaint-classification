@@ -15,6 +15,6 @@ RUN python -m nltk.downloader stopwords wordnet omw-1.4 averaged_perceptron_tagg
 
 COPY . .
 
-EXPOSE 8501
+EXPOSE 5000
 
-CMD streamlit run app.py --server.port=${PORT:-8501} --server.address=0.0.0.0
+CMD gunicorn app:app --bind 0.0.0.0:${PORT:-5000}
