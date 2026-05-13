@@ -43,6 +43,8 @@ Logistic Regression Model
      ↓
 Predicted Complaint Category
 
+---
+
 ## 📊 Model Performance
 
 | Metric            |  Score |
@@ -53,6 +55,7 @@ Predicted Complaint Category
 | Training Rows     | 20,874 |
 | Number of Classes |      8 |
 
+---
 
 ## 🗂️ Project Structure
 ```
@@ -94,6 +97,7 @@ NLP_PROJECT/
     ├── missing_values_report.csv
     └── top_15_categories.png
 ```
+---
 
 ## 📁 Folder Explanation
 
@@ -127,6 +131,8 @@ Contains model performance reports, classification report, experiment results, m
 ### `assets/`
 
 Contains visualization images used in the UI.
+
+---
 
 ## 🛠️ Technologies Used
 
