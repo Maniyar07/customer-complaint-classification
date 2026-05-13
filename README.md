@@ -55,7 +55,7 @@ Predicted Complaint Category
 
 
 ## 🗂️ Project Structure
-
+```
 NLP_PROJECT/
 │
 ├── app.py
@@ -93,6 +93,7 @@ NLP_PROJECT/
     ├── complaint_word_count_distribution.png
     ├── missing_values_report.csv
     └── top_15_categories.png
+```
 
 ## 📁 Folder Explanation
 
