@@ -23,11 +23,11 @@ This project solves that problem by automatically predicting the complaint categ
 
 ### Example Input
 
-Money was debited from my account without my permission.
+     Money was debited from my account without my permission.
 
 ### Example Output
 
-Checking or savings account
+ * Checking or savings account
 
 ---
 
