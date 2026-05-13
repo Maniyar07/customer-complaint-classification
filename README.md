@@ -29,6 +29,8 @@ Money was debited from my account without my permission.
 
 Checking or savings account
 
+---
+
 ## 🧠 Machine Learning Approach
 
 The project uses a traditional NLP machine learning pipeline:
@@ -189,44 +191,44 @@ Min Samples Per Class: 50
 ## ▶️ How to Run Locally
 
 ### Step 1: Clone the Repository
-
+```
 git clone <your-github-repository-link>
 cd NLP_PROJECT
-
+```
 ---
 
 ### Step 2: Create Virtual Environment
-
+```
 python -m venv .venv
-
+```
 Activate it:
 
 #### Windows
-
+```
 .venv\Scripts\activate
-
+```
 #### Mac/Linux
-
+```
 source .venv/bin/activate
-
+```
 ---
 
 ### Step 3: Install Requirements
-
+```
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🚀 Run Flask Backend
 
 Open terminal 1:
-
+```
 python app.py
-
+```
 Flask API will run at:
-
+```
 http://127.0.0.1:5000
-
+```
 Useful API endpoints:
 
 GET  /
@@ -238,31 +240,32 @@ POST /predict
 ## 🎨 Run Streamlit Frontend
 
 Open terminal 2:
-
+```
 streamlit run streamlit_app.py
-
+```
 Streamlit app will run at:
-
+```
 http://localhost:8501
-
+```
 ---
 
 ## 🔌 API Example
 
 ### Request
-
+```
 {
   "complaint_text": "My credit card was charged without my permission."
 }
+```
 
 ### Response
-
+```
 {
   "status": "success",
   "predicted_category": "Credit card or prepaid card",
   "confidence_scores": []
 }
-
+```
 ---
 
 ## 📊 Reports Generated
@@ -300,13 +303,13 @@ These charts are used inside the Streamlit UI.
 ## 🐳 Docker Support
 
 Build Docker image:
-
+```
 docker build -t customer-complaint-classifier .
-
+```
 Run Docker container:
-
+```
 docker run -p 8501:8501 customer-complaint-classifier
-
+```
 ---
 
 ## 🌐 Deployment
