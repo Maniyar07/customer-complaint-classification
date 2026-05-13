@@ -1,3 +1,4 @@
+Note: This app is hosted on Render Free Tier. The first request may take 30–60 seconds because the server starts from sleep mode.
 
 # 📩 Customer Complaint Classification System
 
