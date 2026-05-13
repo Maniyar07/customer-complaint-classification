@@ -17,4 +17,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD gunicorn app:app --bind 0.0.0.0:${PORT:-5000}
+CMD streamlit run streamlit_app.py --server.port=${PORT:-8501} --server.address=0.0.0.0
