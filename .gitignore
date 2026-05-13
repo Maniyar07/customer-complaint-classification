@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# PyCharm files
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Large raw data if needed
+# data/*.xlsx
+# outputs/*.csv
+
+# Keep model files only if they are not too large
+# models/*.pkl
