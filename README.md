@@ -27,14 +27,14 @@ This project solves that problem by automatically predicting the complaint categ
 
 ### Example Output
 
- * Checking or savings account
+       Checking or savings account
 
 ---
 
 ## 🧠 Machine Learning Approach
 
 The project uses a traditional NLP machine learning pipeline:
-
+```
 Complaint Text
      ↓
 Text Cleaning
@@ -44,7 +44,7 @@ TF-IDF Vectorization
 Logistic Regression Model
      ↓
 Predicted Complaint Category
-
+```
 ---
 
 ## 📊 Model Performance
@@ -105,11 +105,11 @@ NLP_PROJECT/
 
 ### `data/`
 
-Contains the original raw dataset.
+* Contains the original raw dataset.
 
 ### `notebooks/`
 
-Contains the complete step-by-step project workflow:
+* Contains the complete step-by-step project workflow:
 
 1. **EDA and Data Understanding**
 2. **Text Preprocessing and Feature Engineering**
@@ -117,7 +117,7 @@ Contains the complete step-by-step project workflow:
 
 ### `outputs/`
 
-Contains cleaned and processed datasets generated from notebooks.
+* Contains cleaned and processed datasets generated from notebooks.
 
 ### `models/`
 
@@ -128,11 +128,11 @@ Contains saved trained model files:
 
 ### `reports/`
 
-Contains model performance reports, classification report, experiment results, misclassified samples, and EDA chart images.
+* Contains model performance reports, classification report, experiment results, misclassified samples, and EDA chart images.
 
 ### `assets/`
 
-Contains visualization images used in the UI.
+* Contains visualization images used in the UI.
 
 ---
 
@@ -170,21 +170,21 @@ Contains visualization images used in the UI.
 
 ### Text Feature
 
-clean_text
+* clean_text
 
 ### Vectorization
 
-TF-IDF Vectorizer
+* TF-IDF Vectorizer
 
 ### Model
 
-Logistic Regression
+* Logistic Regression
 
 ### Best Configuration
 
-Text Version: clean_text
-Max Features: 30000
-Min Samples Per Class: 50
+* Text Version: clean_text
+* Max Features: 30000
+* Min Samples Per Class: 50
 
 ---
 
@@ -272,12 +272,12 @@ http://localhost:8501
 
 The project generates the following reports:
 
-03_best_classification_report.csv
-03_best_classification_report.txt
-03_best_model_metrics.json
-03_data_feature_experiment_results.csv
-03_misclassified_samples.csv
-missing_values_report.csv
+* 03_best_classification_report.csv
+* 03_best_classification_report.txt
+* 03_best_model_metrics.json
+* 03_data_feature_experiment_results.csv
+* 03_misclassified_samples.csv
+* missing_values_report.csv
 
 These reports help in understanding:
 
