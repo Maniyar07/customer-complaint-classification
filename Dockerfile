@@ -15,6 +15,8 @@ RUN python -m nltk.downloader stopwords wordnet omw-1.4 averaged_perceptron_tagg
 
 COPY . .
 
-EXPOSE 5000
+RUN chmod +x start.sh
 
-CMD streamlit run streamlit_app.py --server.port=${PORT:-8501} --server.address=0.0.0.0
+EXPOSE 8501
+
+CMD ["./start.sh"]
